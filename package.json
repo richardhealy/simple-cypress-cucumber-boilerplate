@@ -1,0 +1,18 @@
+{
+  "name": "cypress-cucumber-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^8.3.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "prettier": "^2.3.2"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:test": "cypress run"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
